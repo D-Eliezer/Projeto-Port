@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+/* link das fontes usadas */
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Tipografia */
+:root {
+    --fonteProgr: "Chakra Petch", sans-serif;
+    --fontForte: "Rowdies", sans-serif;
+    --fonteRedonda: "Concert One", sans-serif;
+    --fonteSuave: "Raleway", sans-serif;
+
+    /* cores */
+    --preto: #171810;
+    --borda-letras: #2a446b;
+    --letras: #03fa6e;
+    --fundoFoto:#0f1105;
+}
+
+/* Configurações Globais */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--fonteProgr);
+}
+
+body, html {
+    width: 100%;
+    overflow-x: hidden; /* Prevenir rolagem lateral */
+    
+}
+
+header {background-color: #171810;
+    color: white;
+    height: 150px;
+    padding-bottom: 20px;
+    }
+
+.imagem-logo {position: relative;
+    z-index: 2;}
+
+.links-nav {color: white;
+    font-size: 20px;
+    text-decoration: underline #03fa6e;}
+
+
+#info {position: absolute;
+    top: -80px;
+    z-index: 1;
+    background-color: #171810;}
+
+
+#hamburgue {width: 50px;
+    height: 50px;
+    position: relative;
+    top: 0px;
+    z-index: 2;
+    margin-top: 2px;
+    cursor: pointer;}
+    
+
+.git {width: 100px;}
+
+/* menu principal */
+
+main {background-image: url('imagens/Fundo-smartphone.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 100vw;
+    }
+
+.parte1-main {padding-top: 300px;
+    width: 100vw;}
+
+.slogan-inicial {
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    text-align: end;}
+
+.slogan-inicial > div {padding: 0px 20px 0px 40px;}
+
+.title-slogan {margin: 0px;
+    background-color: #03fa6e71;
+    padding-right: 20px;}
+
+.text-slogan {padding: 0px;
+    margin: 0px;
+    background-color: rgba(124, 124, 124, 0.486);
+    padding-right: 20px;}
+
+/* parte 2 habilidades */
+
+.parte2-main-habilidades {width: 100vw;}
+
+.titulos-habilidades {
+    padding: 70px 0px 0px 0px;}
+
+.title-habilidades {position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #03fa6e71;
+    width: 350px;
+    margin-bottom: 0;
+    text-align: center;}
+
+.title-2-habilidades {position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(124, 124, 124, 0.486);
+    text-align: center;
+    width: 350px;
+    margin-bottom: 0;}
+
+.logos {position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background-color: #2b2b2bce;
+    width: 350px;
+    margin-top: 0;
+    border-radius: 0px 0px 10px 10px;}
+
+.logos > img {width: 150px;
+    padding: 10px 10px 10px 10px;}
+
+/* formação / parte 3 */
+
+.title-formacao {background-color: #03fa6e71;}

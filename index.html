@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 575px)">
+
+    <link rel="stylesheet" href="tablet.css" media="screen and (min-width:576px) and (max-width:1024px)">
+
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
+
+
+    <title>Meu Portfólio</title>
+</head>
+<body>
+
+    <header id="cabeca" class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-sm-4">
+                <img class="img-fluid imagem-logo" src="imagens/logo.png" alt="logo">
+            </div>
+        
+            <nav id="info" class="col-12 col-sm-8">
+                <ul class="text-center list-unstyled info-filho">
+                    <li><a class="links-nav" href="#habilidades">Habilidades</a></li>
+                    <li><a class="links-nav" href="#formacao">Formação</a></li>
+                    <li><a class="links-nav" href="#referencias">Referências</a></li>
+                    <li><a class="links-nav" href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="row">
+            <div class="col text-center">
+                <img id="hamburgue" class="img-fluid" onclick="menu()" src="imagens/menu.png" alt="hamburguer para menu">
+            </div>
+        </div>
+    </header>
+    
+    <main class="container-fluid py-4">
+        <div class="row parte1-main">
+          <div class="d-flex slogan-inicial">
+            <div>
+                <h3 class="title-slogan">Desenvolver Front-end Júnior</h3>           
+                <p class="text-slogan">Pronto para resolver os seus problemas!</p>            
+            </div>
+        </div>
+        <div class="row parte2-main-habilidades">
+            <div class="col titulos-habilidades">
+                <h3 class="title-habilidades">Habilidades</h3>
+                <p class="title-2-habilidades">Linguagens</p>
+                <div class="logos">
+                    <img src="imagens/html_1051277.png" alt="Logo do HTML" class="img-fluid">
+                    <img src="imagens/CSS.png" alt="LOGO DO CSS" class="img-fluid">
+                    <img src="imagens/bootstrap_5968672.png" alt="LOGO DO BOOTSTRAP" class="img-fluid">
+                    <img src="imagens/JS.png" alt="LOGO DO JAVASCRIPT" class="img-fluid">
+                    <img src="imagens/git.png" alt="LOGO DO GIT" class="img-fluid">
+                    <img src="imagens/github_5968866.png" alt="LOGO DO GITHUB" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="row formacao">
+            <div class="col">
+                <h3 class="title-formacao">Formação</h3>
+            </div>
+        </div>
+
+    </main>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>

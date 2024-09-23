@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+/* link das fontes usadas */
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Tipografia */
+:root {
+    --fonteProgr: "Chakra Petch", sans-serif;
+    --fontForte: "Rowdies", sans-serif;
+    --fonteRedonda: "Concert One", sans-serif;
+    --fonteSuave: "Raleway", sans-serif;
+
+    /* cores */
+    --preto: #171810;
+    --borda-letras: #2a446b;
+    --letras: #03fa6e;
+    --fundoFoto:#0f1105;
+
+    /* cores 2 */
+
+    --cor1: #FF700F;
+
+}
+
+/* Configurações Globais */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--fonteProgr);
+}
+
+body, html {
+    width: 100%;
+    overflow-x: hidden; /* Prevenir rolagem lateral */
+}
+
+header {background-color: #171810;
+    color: white;
+    height: 6vw;
+    padding-bottom: 15px;}
+
+
+
+.info-filho {display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 10vw;}
+
+.links-nav {color: white;
+    font-size: 2.4vw;
+    margin-right: 10px;}
+
+#hamburgue {display: none;}
+    
+
+/* menu principal */
+
+main {background-color: #171810;
+    color: white;
+    }
+
+.parte1-main {background-image: url('imagens/fundo-tablet-1.jpg');
+    background-size: cover;
+    background-position: center right;
+    height: 500px;}
+
+@media screen and (min-width:577px) and (max-width:740px) {
+    
+    .parte1-main{background-position: center center;}
+}
+
+.texto-inicial {background-color: #2a446b71;
+    color: rgb(255, 255, 255);
+    height: 150px;
+    border-radius: 0px 20px 20px 0px;
+    margin-top: 40px;
+    }
+
+.texto-inicial > h5 {background-color: rgba(0, 0, 0, 0.274);
+    color: #03fa6e;
+    padding: 5px;
+    }
+
+.img-pessoal {width: 300px;}
+
+/* parte 2 */
+
+.parte2-main {
+    height: 200px;
+    background-image: url('imagens/fundo\ 2-tablet.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+    }
+
+.h1-habilidades {background-color: #2a446b;
+    padding-top: 5px;
+    text-shadow:1px 1px 1px #2a446b;} 
+
+#habilidades {
+    padding-top: 10px;}
+
+.linguagens-pai {padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: transparent;}
+
+
+.parte3-main {background-image: url('imagens/fundo-3.png');
+    background-size: cover;
+    background-position: center right;}
+
+#formacao {background-color: #2a446b;
+    padding-top: 5px;}
+
+.texto-formacao {background-color: #2a446b2d;
+    padding: 10px;
+    text-shadow: 1px 1px 1px black;}
+
+.texto-ref {color: black;}
+
+#referencias {background-color: #2a446b80}
+
+.h1-ref {padding-top: 5px;}
+
+/* rodapé */
+
+.h3-footer {color:white;}
+
+.logo-footer {width: 30px;}
