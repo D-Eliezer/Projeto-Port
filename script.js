@@ -13,7 +13,7 @@ function menu() {
         info.style.opacity = '1'
         info.style.transition = 'top 0.7s ease, opacity 1s ease'
 
-        header.style.height = '280px'
+        header.style.height = '75vw'
         header.style.transition = 'height 0.7s ease'
 
         hamburgue.style.top = '140px'
@@ -24,7 +24,7 @@ function menu() {
             info.style.opacity = '0'
             info.style.transition = 'opacity 1s ease, top 1s ease'
 
-            header.style.height = '150px'
+            header.style.height = '40vw'
             header.style.transition = 'height 0.7s ease'
 
             hamburgue.style.top = '0px';
