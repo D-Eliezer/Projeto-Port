@@ -70,7 +70,7 @@ header {background-color: #171810;
 
 main {background-image: url('imagens/Fundo-smartphone.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     color: white;
     width: 100vw;
     }
@@ -162,4 +162,5 @@ main {background-image: url('imagens/Fundo-smartphone.jpg');
     border: 1px solid black;
     flex-direction: column;
     text-align: center;
+    font-size: 3.6vw;
 }
