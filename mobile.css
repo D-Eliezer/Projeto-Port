@@ -68,9 +68,9 @@ header {background-color: #171810;
 
 /* menu principal */
 
-main {background-image: url('imagens/Fundo-smartphone.jpg');
+main {background-image: url('imagens/fundo-site.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     color: white;
     width: 100vw;
     }
@@ -122,7 +122,7 @@ main {background-image: url('imagens/Fundo-smartphone.jpg');
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    background-color: #2b2b2bce;
+    background-color: rgba(124, 124, 124, 0.486);
     width: 350px;
     margin-top: 0;
     border-radius: 0px 0px 10px 10px;}
@@ -148,19 +148,42 @@ main {background-image: url('imagens/Fundo-smartphone.jpg');
     width: 300px;
     margin-top: 0;
     margin-left: 18vw;
-    background-color: #2b2b2bce;}
+    background-color: rgba(124, 124, 124, 0.486);}
 
 
 /* cards */
 
-.refs {}
+.title-ref {background-color: #03fa6e71;
+    width: 90vw;
+    border: 1px solid rgba(0, 0, 0, 0.479);}
 
 .carta {
-    background-color: gray;
+    background-color: rgba(128, 128, 128, 0.61);
     width: 90vw;
     height: 35vh;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.479);
     flex-direction: column;
     text-align: center;
     font-size: 3.6vw;
 }
+
+
+/* rodapé */
+
+.redes {
+    display: flex;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    justify-content: center;
+    height: 60px;}
+
+.redes > a, p {color: white;}
+
+.redes > img {width:20px;
+    margin-right: 10px;}
+
+.logos-footer {
+    text-align: right;
+}
+
+.links-footer {}
