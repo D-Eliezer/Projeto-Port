@@ -151,6 +151,7 @@ main {background-image: url('imagens/fundo-site.png');
     background-color: rgba(124, 124, 124, 0.486);}
 
 
+
 /* cards */
 
 .title-ref {background-color: #03fa6e71;
@@ -166,6 +167,35 @@ main {background-image: url('imagens/fundo-site.png');
     text-align: center;
     font-size: 3.6vw;
 }
+
+/* projetos */
+
+.owl-carousel {
+    width: 100vw;
+    max-height: 200px;
+    margin: 0 auto;
+}
+
+.item > img {
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.owl-nav {
+    text-align: center;
+}
+
+.owl-prev, .owl-next {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
 
 
 /* rodapé */
@@ -185,5 +215,3 @@ main {background-image: url('imagens/fundo-site.png');
 .logos-footer {
     text-align: right;
 }
-
-.links-footer {}

@@ -4,23 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     
+    <link rel="stylesheet" href="bibliotecas/bootstrap-4.0.0-dist/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="bibliotecas/arquivos/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    
+    <link rel="stylesheet" href="bibliotecas/arquivos/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+
     <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 575px)">
 
     <link rel="stylesheet" href="tablet.css" media="screen and (min-width:576px) and (max-width:1024px)">
-
-    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
-
 
     <title>Meu Portfólio</title>
 </head>
 <body>
 
+    <!-- Cabeçalho -->
     <header id="cabeca" class="container-fluid">
         <div class="row">
             <div class="col-12 col-sm-4">
                 <img class="img-fluid imagem-logo" src="imagens/logo.png" alt="logo">
             </div>
-        
             <nav id="info" class="col-12 col-sm-8">
                 <ul class="text-center list-unstyled info-filho">
                     <li><a class="links-nav" href="#habilidades">Habilidades</a></li>
@@ -40,87 +43,83 @@
     
     <main class="container-fluid py-4">
         <div class="row parte1-main">
-          <div class="d-flex slogan-inicial">
-            <div>
-                <h3 class="title-slogan">Desenvolver Front-end Júnior</h3>           
-                <p class="text-slogan">Pronto para resolver os seus problemas!</p>            
+            <div class="d-flex slogan-inicial">
+                <div>
+                    <h3 class="title-slogan">Desenvolver Front-end Júnior</h3>           
+                    <p class="text-slogan">Pronto para resolver os seus problemas!</p>            
+                </div>
             </div>
-        </div>
-        <div class="row parte2-main-habilidades">
-            <div class="col titulos-habilidades">
-                <h3 class="title-habilidades" id="habilidades">Habilidades</h3>
-                <p class="title-2-habilidades" >Linguagens</p>
-                <div class="logos">
-                    <img src="imagens/html_1051277.png" alt="Logo do HTML" class="img-fluid">
-                    <img src="imagens/CSS.png" alt="LOGO DO CSS" class="img-fluid">
-                    <img src="imagens/bootstrap_5968672.png" alt="LOGO DO BOOTSTRAP" class="img-fluid">
-                    <img src="imagens/JS.png" alt="LOGO DO JAVASCRIPT" class="img-fluid">
-                    <img src="imagens/git.png" alt="LOGO DO GIT" class="img-fluid">
-                    <img src="imagens/github_5968866.png" alt="LOGO DO GITHUB" class="img-fluid">
+
+            <div class="row parte2-main-habilidades">
+                <div class="col titulos-habilidades">
+                    <h3 class="title-habilidades" id="habilidades">Habilidades</h3>
+                    <p class="title-2-habilidades">Linguagens</p>
+                    <div class="logos">
+                        <img src="imagens/html_1051277.png" alt="Logo do HTML" class="img-fluid">
+                        <img src="imagens/CSS.png" alt="LOGO DO CSS" class="img-fluid">
+                        <img src="imagens/bootstrap_5968672.png" alt="LOGO DO BOOTSTRAP" class="img-fluid">
+                        <img src="imagens/JS.png" alt="LOGO DO JAVASCRIPT" class="img-fluid">
+                        <img src="imagens/git.png" alt="LOGO DO GIT" class="img-fluid">
+                        <img src="imagens/github_5968866.png" alt="LOGO DO GITHUB" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 formacao">
+                    <h3 class="title-formacao">Formação</h3>
+                </div>
+                <div class="col-12 text-formacao" id="formacao">
+                    <p>Atualmente, estou cursando o segundo período do curso técnico de desenvolvimento de sistemas, onde estou me aprofundando em banco de dados, enquanto aprimoro minhas habilidades em JavaScript e exploro novos frameworks e bibliotecas para aplicá-los em projetos futuros. Estou sempre em busca de me manter atualizado com as tendências do mercado, estudando tecnologias emergentes que possam agregar valor aos meus trabalhos. Tenho planos de ingressar em uma faculdade na área de desenvolvimento para expandir ainda mais meu conhecimento, adquirir novas experiências e fortalecer minha carreira na área de tecnologia.</p>
+                </div>
+            </div>
+
+            <div class="row refs">
+                <div class="col-12">
+                    <h3 class="text-center mt-5 title-ref mx-auto">Referências de Estudos</h3>
+                </div>
+
+                <div class="d-flex p-4 mt-2 mx-auto carta">
+                    <h3 class="h3">Curso em vídeo</h3>
+                    <p>Algumas das minhas habilidades com linguagens de programação vieram do canal <a href=""><span class="badge badge-success">Curso em vídeo</span></a>, é um canal que recomendo muito. Além de ser de graça, os conteúdos são extremamente ricos, com projetos e desafios.</p>
+                </div>
+                <div class="d-flex p-4 mx-auto my-2 carta">
+                    <h3 class="h3">LunDev</h3>
+                    <p>O canal <a href=""><span class="badge badge-success">Lun dev</span></a> é um canal de tutoriais de animações com HTML, CSS e JS, é um canal que gosto muito de acompanhar, estão sempre trazendo tutoriais fantásticos, tutoriais esses que ajudam as pessoas que querem ser desenvolvedores front-end a aprimorar seus conhecimentos com animações com CSS e JS e entre outras coisas.</p>
+                </div>
+                <div class="d-flex p-4 mx-auto my-2 carta">
+                    <h3>Lucas Montano</h3>
+                    <p>O canal <a href="https://www.youtube.com/@LucasMontano"><span class="badge badge-success">Lucas Montano</span></a> é uma abordagem descontraída e envolvente para quem se interessa por programação. Nele, o criador e apresentador faz *reacts* de vídeos relacionados à área de tecnologia, enquanto compartilha insights valiosos, dicas práticas e reflexões para quem está começando na programação ou deseja aprimorar suas habilidades e evoluir na carreira.</p>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 formacao">
-                <h3 class="title-formacao">Formação</h3>
-            </div>
-            <div class="col-12 text-formacao" id="formacao">
-                <p>Atualmente, estou cursando o segundo período do curso técnico de desenvolvimento de sistemas, onde estou me aprofundando em banco de dados, enquanto aprimoro minhas habilidades em JavaScript e exploro novos frameworks e bibliotecas para aplicá-los em projetos futuros. Estou sempre em busca de me manter atualizado com as tendências do mercado, estudando tecnologias emergentes que possam agregar valor aos meus trabalhos. Tenho planos de ingressar em uma faculdade na área de desenvolvimento para expandir ainda mais meu conhecimento, adquirir novas experiências e fortalecer minha carreira na área de tecnologia.</p>
-            </div>
-        </div>
-        <div class="row refs">
-                
-            <div class="col-12">
-                <h3 class="text-center mt-5 title-ref mx-auto">Referências de Estudos</h3>
-            </div>
-
-            <div class=" d-flex p-4 mt-2 mx-auto carta">
-
-                <h3 class="h3">Curso em vídeo</h3>
-
-                <p>Algumas das minhas habilidades com linguages de programação vieram do canal <a href=""><span class="badge badge-success">Curso em vídeo</span></a>, é um canal que recomendo muito. Além de ser de graça, os conteúdos são extremamente ricos, com projetos e desafios.</p>
-
-            </div>
-            <div class="d-flex p-4 mx-auto my-2 carta">
-
-                <h3 class="h3">LunDev</h3>
-
-                <p>O canal <a href=""><span class="badge badge-success">Lun dev</span></a> é um canal de tutorias de animações com HTML, CSS E JS, é um canal que gosto muito de acompanhar, estão sempre trazendo tutoriais fantásticos, tutoriais esses que ajudam as pessoas que querem ser desenvolvedor front-end a aprimorar seus conhecimentos com animações com CSS E JS e entre outras coisas.</p>
-
-            </div>
-            <div class="d-flex p-4 mx-auto my-2 carta">
-                <h3></h3>
-
-            </div>
-
-        </div>
-
     </main>
 
+
     <footer class="container-fluid">
-        
         <div class="row">
-            <div class="col-6 text-center bg-dark redes ">
+            <div class="col-6 text-center bg-dark redes">
                 <img src="imagens/linkedin_174857.png" alt="logo_linkedin">
                 <a href="https://www.linkedin.com/in/david-eliezer-946855307/" target="_blank">Linkedin</a>
             </div>
             <div class="col-6 bg-dark redes">
                 <img src="imagens/github.png" alt="logo_github">
-                <a href="https://github.com/D-Eliezer" target="_blank">github</a>
+                <a href="https://github.com/D-Eliezer" target="_blank">GitHub</a>
             </div>
             <div class="col-6 bg-dark redes">
                 <img src="imagens/gmail_732200.png" alt="logo_gmail">
-                <a href="davideliezer344@gmail.com" target="_blank">Meu gmail</a>
+                <a href="mailto:davideliezer344@gmail.com" target="_blank">Meu Gmail</a>
             </div>
             <div class="col-6 bg-dark redes">
                 <img src="imagens/whatsapp_3536445.png" alt="logo_whatsapp">
-                <p href="">81-9462-9228</p>
+                <a href="tel:+558194629228">81-9462-9228</a>
             </div>
         </div>
-
     </footer>
 
-    
+    <script src="bibliotecas/jquery-3.7.1.min.js"></script>
+
     <script src="script.js"></script>
+
 </body>
 </html>
